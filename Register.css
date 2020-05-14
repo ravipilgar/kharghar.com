@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(RegistrationBg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: absolute;
+	font-family: sans-serif; 
+	overflow:hidden;
+}
+
+.Register{
+	width: 500px;
+	height: 650px;
+	background: red;
+	background: rgba(255, 250, 240, 0.75);
+	color: #fff;
+	top: 50%;
+	left: 80%;
+	border-radius: 10%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 10px 30px;
+}
+
+label{
+	margin:0;
+	padding: 0 0 20px;
+	color: black;
+}
+
+.Register input[type="text"],input[type="password"],input[type="radio"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: gray;
+	font-size:16px;
+}
+
+.Register input[type="Submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	width: 150px;
+	background:Thistel;
+	color: "Black";
+	font-size:18px;
+	border-radius: 20px;
+}
+
+.Register input[type="Submit"]:hover
+{
+	cursor: pointer;
+	background: lavender;
+	color:#000;
+}
