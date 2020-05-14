@@ -1,5 +1,7 @@
+
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>transparent login form</title>
@@ -75,7 +77,7 @@
             color: #fff;
             font-size: 16px;
         }
-        .contact-form input[type="submit"] {
+        .contact-form button[type="submit"] {
             height: 30px;
             color: #fff;
             font-size: 15px;
@@ -99,15 +101,15 @@
     </style>
 </head>
 <body>
-    <div class="contact-form">
+    <div class="contact-form" method="POST">
         <img src="2.jpg" class="avatar">
         <h2>Contact Form</h2>
-        <form>
+        <form action="my1.php">
             <p>Email</p>
-            <input type="text" name="" placeholder="Enter Email">
+            <input type="email" name="email" placeholder="Enter Email">
             <p>Password</p>
-            <input type="password" name="" placeholder="Enter Password">
-            <input type="submit" name="" value="Sign In">
+            <input type="password" name="pwd" placeholder="Enter Password">
+             <button type="submit" class="btn btn-primary"><a href="comment.html">Register</a></button>
             <p><input type="checkbox"> Remember Me</p>
         </form>
     </div>
